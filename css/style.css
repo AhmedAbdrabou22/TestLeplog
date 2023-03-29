@@ -484,3 +484,11 @@ h1 {
 /**
  * End Of style Slider
  */
+
+
+ /**Style Notification Details */
+    .notification .notification_Detials div span{
+        color:#666666;
+        text-align: center;
+    }
+ /**Style Notification Details */
