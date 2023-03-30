@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+h1, h2,h3, h4, h5, h6 {
+	color:#666666
+}
+
 
 :root {
 	--colorSecondary: #23cba5;
@@ -561,7 +565,7 @@ h1 {
 	color: #666666;
 }
 
-.notification .notification_Detials .circle {
+.notification .notification_Detials .circle  , .big_chat .chat .circle{
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
@@ -681,6 +685,43 @@ textarea{
 
 
 
+/**Style section chat */
+.big_chat{
+	width:50%;
+}
+.big_chat .chat .chat_dialoge p{
+	color: #666666;
+}
+.big_chat .chat  span{
+	color:#666666;
+}
+.big_chat .chat{
+	/* background-color: red; */
+	padding:10px;
+	/* border: 1px solid #666666; */
+	margin-bottom: 10px;
+}
+.big_chat .chat img{
+	width:45px;
+	height:45px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	vertical-align: middle;;
+}
+.big_chat .chat div{
+	line-height: 10px;
+}
+.big_chat .chat .circle{
+	width:25px;
+	color: white;
+	height:25px;
+	text-align: center;
+	padding-top: 5px;
+}
+/**Style section chat */
 
 
 
@@ -765,5 +806,11 @@ textarea{
 	}
 	.image{
 		width:100%;
+	}
+	.big_chat{
+		width:100%;
+	}
+	.big_chat .chat div{
+		line-height:100%;
 	}
 }
