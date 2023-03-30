@@ -22,6 +22,12 @@ link.addEventListener('click', function(){
     overlayTwo.style.transition='0.5s all ease';
 })
 
+window.onload = function(){
+    let heart = document.getElementById('heart');
+    heart.addEventListener('click',()=>{
+        heart.style.color="red"
+    })
+}
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 var commons = function () {
