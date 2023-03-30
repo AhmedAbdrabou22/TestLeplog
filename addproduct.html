@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
@@ -30,6 +30,75 @@
 
 
 
+    <!--Section Add Products-->
+    <section class="Addproduct">
+        <div>
+            <h4 class="text-center">اضافة منتج</h4>
+        </div>
+        <div class="details_product  m-auto py-4">
+            <div id="drop-area">
+                <form class="my-form text-center">
+                    <div id="trustForm">
+                        <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)">
+                        <label class="button" for="fileElem">
+                            <img src="imgs/Uploading-bro.svg" alt="">
+                        </label>
+                        <br>
+                        <span>أضافة منتج</span>
+                    </div>
+                    <div>
+                        <label for="cars">تحديد نوع المنتج</label>
+                        <br>
+                        <select id="cars" name="cars">
+                            <option value="volvo">سيارات</option>
+                            <option value="saab">اجهزة الكترونيه</option>
+                            <option value="fiat">اجهوه كهربائيه</option>
+                            <option value="audi">اجهزه طبيه</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="text">اسم المنتج</label>
+                        <br>
+                        <input type="text" name="text" id="text">
+                    </div>
+                    <div class="d-flex justify-content-evenly align-items-center price mt-3">
+                        <div >
+                            <label for="text">السعر</label>
+                            <br>
+                            <input type="text" name="text" id="text">
+                        </div>
+                        <div >
+                            <label for="text">المده</label>
+                            <br>
+                            <input type="text" name="text" id="text">
+                        </div>
+                        <div >
+                            <label for="text">الخصم</label>
+                            <br>
+                            <input type="text" name="text" id="text">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-evenly  s mt-3">
+                        <div>
+                            <label for="place">تحديد المكان</label>
+                            <br>
+                            <input type="text" id="place">
+                        </div>
+                        <div class="square">
+                            <img src="imgs/location_pin.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <label for="descripe">وصف المنتج</label>
+                        <br>
+                        <textarea name="textarea" id="textarea" cols="80" rows=5"></textarea>
+                    </div>
+                    <button class="btn" id="add">اضافه</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Section Add Products-->
 
 
 
@@ -42,9 +111,12 @@
 
 
 
-    
+
+
+
+
     <!--section Footer-->
-    <section class="nav_footer">
+    <!-- <section class="nav_footer">
         <div class="footer_items d-flex justify-content-between align-items-center ">
             <div><a href="notification.html"><img src="imgs/alarm.svg" alt="alarm"></a></div>
             <div><a href="addproduct.html"><img src="imgs/add_to_photos.svg" alt="alarm"></a></div>
@@ -52,7 +124,7 @@
             <div><a href="favourite.html"><img src="imgs/favorite.svg" alt="alarm"></a></div>
             <div><a href="chat.html"><img src="imgs/13-chat.svg" alt="alarm"></a></div>
         </div>
-    </section>
+    </section> -->
     <!--section Footer-->
 
 
