@@ -48,7 +48,7 @@
                 <div class="setting d-flex justify-content-between align-items-center">
                     <div class="mx-2 gear"><i class="fa-solid fa-gear"></i></div>
                     <div>
-                        <button class="btn">Sign In</button>
+                        <button class="btn" onclick="on()">Sign In</button>
                         <button class="btn">Log in</button>
                     </div>
                 </div>
@@ -1267,6 +1267,30 @@
     </section>
     <!--section Footer-->
 
+
+
+
+
+    <div id="overlaye" ondblclick="off()">
+        <div id="texte">
+            <div class="form-style-5">
+                <form>
+                    <fieldset>
+                        <legend class="text-dark"><span class="number">1</span> Personal Information</legend>
+                        <input type="text" name="field1" placeholder="Your Name ">
+                        <input type="email" name="field2" placeholder="Email ">
+                        <input type="text" name="field3" placeholder="Phone Number">
+                        <input type="text" name="field4" placeholder="Address">
+                    </fieldset>
+                    <fieldset>
+                        <legend class="text-dark"><span class="number">2</span> Your Profile</legend>
+                        <textarea name="field3" placeholder="Short Bio"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Submit" />
+                </form>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"

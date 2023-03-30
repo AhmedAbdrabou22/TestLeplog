@@ -480,3 +480,10 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+function on() {
+    document.getElementById("overlaye").style.display = "block";
+  }
+  
+  function off() {
+    document.getElementById("overlaye").style.display = "none";
+  }
